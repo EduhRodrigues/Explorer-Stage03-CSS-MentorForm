@@ -107,6 +107,11 @@ fieldset legend {
   padding-left: 18px;
 }
 
+.input-wrapper1 input:active {
+  text-transform: uppercase;
+  border: 2px solid #FF5374;
+}
+
 .lable-nome {
   margin-top: 8px;
 }
@@ -262,6 +267,7 @@ p.firstMentorship {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-bottom: 10px;
 }
 
 button {
@@ -279,6 +285,7 @@ button {
   font-size: 20px;
   line-height: 26px;
 }
+
 
 
 
