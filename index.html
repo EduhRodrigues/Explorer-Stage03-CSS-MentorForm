@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mentorship Form</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Staatliches&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="page">
+    <header>
+      <h1>Mentoria</h1>
+      <h2>Preencha o formulário abaixo para agendar a sua mentoria</h2>
+    </header>
+
+      <form action="https://formsubmit.co/eduardorodrigues23@gmail.com" method="post">
+        <fieldset>
+          <legend>INFORMAÇÕES PESSOAIS</legend>
+        </fieldset>
+
+        <div class="input-wrapper1">
+          <label class="lable-name" for="personal-information">Nome</label>
+          <label class="lable-surname" for="personal-information">Sobrenome</label>
+          <input class="input-name" type="text" id="personal-information" name="Nome" required>
+          <input class="input-surname" type="text" id="personal-information" required>  
+          <label class="lable-email" for="personal-information">Email<span>(digite um email válido)</span></label>
+          <input class="input-email" type="email" id="personal-information" name="Email" required>
+          <label class="lable-password" for="personal-information">Senha<span>(digite uma senha válida - opcional)</span></label>
+          <input class="input-password" type="password" id="personal-information">
+        </div>
+
+        <fieldset>
+          <legend class="mentor-information">INFORMAÇÕES DO MENTOR</legend>
+        </fieldset>
+
+        <div class="input-wrapper2">
+          <label class="lable-email" for="mentor-information">Nome do seu mentor<span>(só o primeiro nome)</span></label>
+          <input class="input-mentorName" type="text" id="mentor-information" name="NomeDoMenor">
+
+          <fieldset>
+            <legend class="mySchedule">SEUS HORÁRIOS DISPONÍVEIS</legend>
+          </fieldset>
+  
+          <div class="input-wrapper3">
+            <p CLASS="firstMentorship"> PRIMEIRA MENTORIA</p>
+            <label class="lable-myScheduleDate" for="availableTime">Data <span>(DD/MM/AAAA)</span></label>
+            <label class="lable-myScheduleFrom" for="availableTime">Das</label>
+            <label class="lable-myScheduleTo" for="availableTime">Até</span></label><br>
+            <input class="input-myScheduleDate" type="date" id="availableTime" name="1ªMentoriaData" required>
+            <input class="input-myScheduleFrom" type="time" id="availableTime" name="Das" required>
+            <input class="input-myScheduleTo" type="time" id="availableTime" name="Até" required>
+
+            <p CLASS="secondMentorship"> SEGUNDA MENTORIA</p>
+            <label class="lable-myScheduleDate" for="availableTime">Data <span>(DD/MM/AAAA)</span></label>
+            <label class="lable-myScheduleFrom" for="availableTime">Das</label>
+            <label class="lable-myScheduleTo" for="availableTime">Até</span></label><br>
+            <input id="junto" class="input-myScheduleDate" type="date" id="availableTime" name="2ªMentoriaData">
+            <input id="junto" class="input-myScheduleFrom" type="time" id="availableTime" name="Das"> 
+            <input id="junto" class="input-myScheduleTo" type="time" id="availableTime" name="Até">
+            </div>
+
+            <div class="footer">
+              <input type="hidden" name="_captcha" value="false">
+              <input type="hidden" name="_next" value="http://127.0.0.1:5500/obrigado.html">
+              <button type="submit">
+                Enviar
+              </button>
+            </div>
+
+        </div>
+            
+      </form>
+    </div>
+  </body>
+</html>
