@@ -176,14 +176,14 @@ span:hover {
   height: 56px;
   margin-top: 8px;
   margin-bottom: 30px;
-
   font-family: 'Staatliches';
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 34px;
   color: #FF5374;
-  padding-left: 18px;
+  padding-left: 29px;
+  letter-spacing: 5px;
 }
 
 p {
@@ -206,6 +206,7 @@ p.firstMentorship {
 
 .lable-myScheduleDate {
   margin-top: 8px;
+  padding-left: 10px ;
  }
 
 .lable-myScheduleFrom {
