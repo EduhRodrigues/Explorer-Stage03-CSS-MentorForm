@@ -289,7 +289,7 @@ p.firstMentorship {
 }
 
 button {
-  width: 608px;
+  width: 600px;
   height: 56px;
   background: #FF5374;
   border-radius: 20px;
@@ -334,6 +334,10 @@ div.page_padding_bottom {
   }
   div.page_padding_bottom {
     height: 2px;
+  }
+  button {
+    width: 400px;
+    height: 60px;
   }
 }
 
