@@ -341,12 +341,15 @@ div.page_padding_bottom {
   }
 
   div.footer {
-    border-radius: 0px 0px 40px 40px;
+    border-radius: 0px 0px 30px 30px;
   }
 
   form {
-    border-radius: 40px 40px 0px 0px;
+    border-radius: 30px 30px 0px 0px;
     padding: 20px;
+  }
+  .input-wrapper1 label {
+    margin-top: 20px;
   }
 }
 
