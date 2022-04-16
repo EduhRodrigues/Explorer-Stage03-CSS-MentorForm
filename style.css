@@ -339,6 +339,14 @@ div.page_padding_bottom {
     width: 400px;
     height: 60px;
   }
+
+  div.footer {
+    border-radius: 0px 0px 40px 40px;
+  }
+
+  form {
+    border-radius: 40px 40px 0px 0px;
+  }
 }
 
 
