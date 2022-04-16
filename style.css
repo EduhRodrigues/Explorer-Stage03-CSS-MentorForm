@@ -107,9 +107,14 @@ fieldset legend {
   padding-left: 18px;
 }
 
-.input-wrapper1 input:active {
-  text-transform: uppercase;
-  border: 2px solid #FF5374;
+.input-wrapper1 input:valid {
+  border: 1px solid #67ff53;
+}
+.input-wrapper2 input:valid {
+  border: 1px solid #67ff53;
+}
+.input-wrapper3 input:valid {
+  border: 1px solid #67ff53;
 }
 
 .lable-nome {
@@ -130,10 +135,6 @@ fieldset legend {
 
 .input-wrapper1 .input-email {
   width: 100%;
-}
-
-input[type="email"] {
-  text-transform: lowercase;
 }
 
 span {
@@ -169,7 +170,6 @@ span:hover {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  
 }
 
 .input-wrapper2 input {
@@ -299,7 +299,7 @@ button {
     padding: 64px;
     background-color: #ffffff;
     margin-top: 45px;
-    height: 1500px;
+    height: 1300px;
     border-radius: 20px 20px 0px 0px;
   }
 }
