@@ -294,6 +294,14 @@ button {
     width: 750px;
     height: 500px;
   }
+
+  form {
+    padding: 64px;
+    background-color: #ffffff;
+    margin-top: 45px;
+    height: 1500px;
+    border-radius: 20px 20px 0px 0px;
+  }
 }
 
 
