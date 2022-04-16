@@ -286,6 +286,15 @@ button {
   line-height: 26px;
 }
 
+@media only screen and (max-width: 300px) {
+  h1, h2 {
+    margin-left: 20px;
+  }
+  body::before {
+    width: 100vh;
+  }
+}
+
 
 
 
