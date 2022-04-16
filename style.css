@@ -288,7 +288,6 @@ button {
     width: 750px;
     height: 500px;
   }
-
   form {
     padding: 64px;
     background-color: #ffffff;
@@ -296,9 +295,11 @@ button {
     height: 1200px;
     border-radius: 20px 20px 0px 0px;
   }
-
   header {
     margin-top: 70px;
+  }
+  .input-wrapper1 input {
+    width: 290px;
   }
 }
 
