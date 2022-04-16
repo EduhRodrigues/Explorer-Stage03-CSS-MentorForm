@@ -291,8 +291,8 @@ button {
     margin-left: 20px;
   }
   body::before {
-    width: 100vh;
-    height: 100vw;
+    width: 750px;
+    height: 300vw;
   }
 }
 
