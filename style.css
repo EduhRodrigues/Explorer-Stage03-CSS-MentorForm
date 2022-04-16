@@ -292,7 +292,11 @@ button {
   }
   body::before {
     width: 750px;
-    height: 300vw;
+    height: 500px;
+  }
+
+  body {
+    height: 100vh;
   }
 }
 
