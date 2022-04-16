@@ -331,6 +331,9 @@ div.page_padding_bottom {
   .input-wrapper1 input {
     width: 294px;
   }
+  div.page_padding_bottom {
+    height: 30px;
+  }
 }
 
 
