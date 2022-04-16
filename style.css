@@ -74,8 +74,6 @@ fieldset legend {
   padding-bottom: 16px;
 }
 
-
-
 .input-wrapper1 label{
   margin-top: 16px;
   font-family: 'Poppins';
@@ -226,8 +224,6 @@ p.firstMentorship {
 
 .input-wrapper3 input {
   display:inline-block;
-  margin-top: 8px;
-  margin-bottom: 16px;
 }
 
 .input-wrapper3 .input-myScheduleDate {
@@ -245,17 +241,12 @@ p.firstMentorship {
  }
 
  p.secondMentorship {
-   margin-top: 0;
    font-family: 'Staatliches';
    font-style: normal;
    font-weight: 400;
    font-size: 20px;
    line-height: 34px;
    color: #535971;
- }
-
- .input-wrapper3 .input-myScheduleDate {
-   margin-bottom: 64px;
  }
 
  div .footer {
