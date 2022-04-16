@@ -26,14 +26,14 @@
         </fieldset>
 
         <div class="input-wrapper1">
-          <label class="lable-name" for="personal-name">Nome</label>
-          <label class="lable-surname" for="personal-surname">Sobrenome</label>
-          <input class="input-name" type="text" id="personal-name" name="Nome" required>
-          <input class="input-surname" type="text" id="personal-surname" required>  
-          <label class="lable-email" for="personal-email">Email<span>(digite um email válido)</span></label>
-          <input class="input-email" type="email" id="personal-email" name="Email" required>
-          <label class="lable-password" for="personal-password">Senha<span>(digite uma senha válida - opcional)</span></label>
-          <input class="input-password" type="password" id="personal-password" required>
+          <label class="lable-name" for="personalName">Nome</label>
+          <label class="lable-surname" for="personalSurname">Sobrenome</label>
+          <input class="input-name" type="text" id="personalName" name="Nome" autocomplete="none" required>
+          <input class="input-surname" type="text" id="personalSurname" autocomplete="none" required>  
+          <label class="lable-email" for="personalEmail">Email<span>(digite um email válido)</span></label>
+          <input class="input-email" type="email" id="personalEmail" name="Email" autocomplete="none" required>
+          <label class="lable-password" for="personalPassword">Senha<span>(digite uma senha válida - opcional)</span></label>
+          <input class="input-password" type="password" id="personalPassword" autocomplete="none" required>
         </div>
 
         <fieldset>
@@ -41,8 +41,8 @@
         </fieldset>
 
         <div class="input-wrapper2">
-          <label class="lable-email" for="mentor-name">Nome do seu mentor<span>(só o primeiro nome)</span></label>
-          <input class="input-mentorName" type="text" id="mentor-name" name="NomeDoMenor" required>
+          <label class="lable-mentorName" for="mentorName">Nome do seu mentor<span>(só o primeiro nome)</span></label>
+          <input class="input-mentorName" type="text" id="mentorName" name="NomeDoMentor" autocomplete="none" required>
 
           <fieldset>
             <legend class="mySchedule">SEUS HORÁRIOS DISPONÍVEIS</legend>
@@ -61,9 +61,9 @@
             <label class="lable-myScheduleDate" for="availableDate2">Data <span>(DD/MM/AAAA)</span></label>
             <label class="lable-myScheduleFrom" for="availableFrom2">Das</label>
             <label class="lable-myScheduleTo" for="availableTo2">Até</span></label><br>
-            <input id="junto" class="input-myScheduleDate" type="date" id="availableDate2" name="2ªMentoriaData" required>
-            <input id="junto" class="input-myScheduleFrom" type="time" id="availableFrom2" name="Das" required> 
-            <input id="junto" class="input-myScheduleTo" type="time" id="availableTo2" name="Até" required>
+            <input class="input-myScheduleDate" type="date" id="availableDate2" name="2ªMentoriaData" required>
+            <input class="input-myScheduleFrom" type="time" id="availableFrom2" name="Das" required> 
+            <input class="input-myScheduleTo" type="time" id="availableTo2" name="Até" required>
             </div>
 
             <div class="footer">

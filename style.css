@@ -74,6 +74,10 @@ fieldset legend {
   padding-bottom: 16px;
 }
 
+div .input-wrapper2 {
+  margin-top: 24px;
+}
+
 .input-wrapper1 label{
   margin-top: 16px;
   font-family: 'Poppins';
@@ -128,9 +132,9 @@ fieldset legend {
   border: 1px solid #67ff53;
   color: #FF5374;
 }
-.input-wrapper3 input:hover {
+/*.input-wrapper3 input:hover {
   border: 1.5px solid #FF5374;
-}
+}*/
 
 
 
@@ -204,7 +208,7 @@ span:hover {
   font-size: 20px;
   line-height: 34px;
   color: #FF5374;
-  padding-left: 29px;
+  padding-left: 18px;
   letter-spacing: 1px;
 }
 
@@ -240,8 +244,11 @@ p.firstMentorship {
  }
 
 .input-wrapper3 input {
-  display:inline-block;
+  display: inline-block;
   margin-bottom: 32px;
+  letter-spacing: 2px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .input-wrapper3 .input-myScheduleDate {
