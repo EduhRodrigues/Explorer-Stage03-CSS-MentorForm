@@ -105,17 +105,34 @@ fieldset legend {
   line-height: 34px;
   color: #FF5374;
   padding-left: 18px;
+  letter-spacing: 1px;
 }
 
 .input-wrapper1 input:valid {
   border: 1px solid #67ff53;
+  color: #FF5374;
 }
+.input-wrapper1 input:hover {
+  border: 1.5px solid #FF5374;
+}
+
 .input-wrapper2 input:valid {
   border: 1px solid #67ff53;
+  color: #FF5374;
 }
+.input-wrapper2 input:hover {
+  border: 1.5px solid #FF5374;
+}
+
 .input-wrapper3 input:valid {
   border: 1px solid #67ff53;
+  color: #FF5374;
 }
+.input-wrapper3 input:hover {
+  border: 1.5px solid #FF5374;
+}
+
+
 
 .lable-nome {
   margin-top: 8px;
@@ -188,7 +205,7 @@ span:hover {
   line-height: 34px;
   color: #FF5374;
   padding-left: 29px;
-  letter-spacing: 5px;
+  letter-spacing: 1px;
 }
 
 p {
